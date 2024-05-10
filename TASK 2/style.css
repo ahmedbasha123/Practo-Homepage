@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+header { 
+    background-color: #007bff; 
+    background-color: #92d2d6;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    font-size: 11px; 
+    padding-left: 20px; 
+    
+    
+  }
+  nav ul li a{
+    text-decoration: none;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .user-actions a {
+    color: #fff;
+    margin-left: 20px;
+  }
+  
+  .btn-sign-up {
+    background-color: #fff;
+    color: #007bff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  .navinteract{
+    font-size: 10px;
+  }
+  select{
+    border: none;
+  }
+  #btn{
+    font-size: 10px;
+    border: 0.1px solid ;
+    border-radius: 15% ;
+  }
